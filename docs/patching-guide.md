@@ -45,9 +45,9 @@ xdelta3 -d -s "Brightis (Japan).bin" \
 
 A clean patch produces a file that is still 102,319,056 bytes, with:
 
-- CRC32: `3a2f5773`
-- MD5: `d9949e36c46bf0bf7dfac11f2190594a`
-- SHA-1: `53c3935822a528722e3a8732fa8d7c174407b2bc`
+- CRC32: `bae9c2e5`
+- MD5: `2d3a089ea1ccc27f5fc4325aef7d4ea7`
+- SHA-1: `20656bc0f918d87e4a43b067f4b7924cfa9f5c6d`
 
 If those match, you are done.
 
