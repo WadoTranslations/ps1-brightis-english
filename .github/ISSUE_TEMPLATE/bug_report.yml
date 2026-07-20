@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a text error, crash, or display problem in the patch
+labels: [bug]
+body:
+  - type: input
+    id: patch-version
+    attributes:
+      label: Patch version
+      placeholder: "e.g. v1.0 (from the Releases page)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Emulator or hardware
+      options:
+        - DuckStation
+        - ePSXe
+        - Beetle PSX / RetroArch
+        - PCSX-Redux
+        - Real hardware
+        - Other (note below)
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Where in the game
+      description: Area, scene, and roughly when it happens
+      placeholder: "e.g. Snow Castle, the black crystal prompt"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of problem
+      options:
+        - Typo / grammar
+        - Text runs off-screen / overflow
+        - Untranslated text left in
+        - Wrong speaker name / label
+        - Crash or softlock
+        - Other
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong
+      description: Describe it, and attach a screenshot if you can
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reach it (if known)
+      placeholder: "Choices made, save state, steps to trigger it"

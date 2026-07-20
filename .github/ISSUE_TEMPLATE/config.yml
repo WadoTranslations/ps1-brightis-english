@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Where do I get the game?
+    url: https://github.com/WadoTranslations/ps1-brightis-english/blob/main/CONTRIBUTING.md
+    about: I can't help you obtain the game. Please don't open an issue for this.

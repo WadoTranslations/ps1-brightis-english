@@ -1,0 +1,16 @@
+# This repo is text only. The patch lives on the Releases page, never in git.
+# These rules are a safety net against committing binaries or private tooling.
+
+# Patch and disc files
+*.xdelta
+*.bps
+*.ips
+*.bin
+*.cue
+*.iso
+*.img
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
