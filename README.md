@@ -66,6 +66,13 @@ Built on the groundwork of the original fan-translation team, with thanks:
 
 Thanks also to the redump.org preservation project.
 
+## The original translation project
+
+This patch is a separate effort from the Brightis Translation group, the
+team whose groundwork is credited above. Their project has recently
+restarted and they plan a release of their own. You can follow their work
+at [github.com/Brightis-Translation](https://github.com/Brightis-Translation/).
+
 ## License
 
 This is a fan translation. It is free, not for sale, and not affiliated with
