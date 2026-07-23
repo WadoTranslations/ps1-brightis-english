@@ -6,7 +6,7 @@ unofficial English translation patch for it. Everything you read in the game
 is in English now: the story, menus, items, skills, the save and load
 screens, name entry, signs, area names, and the tutorials.
 
-Version 1.0. It is finished and playable start to finish.
+Version 1.0.1. It is finished and playable start to finish.
 
 ## Download
 

@@ -27,7 +27,7 @@ desktop Delta Patcher tool.
 
 1. Original file: your `Brightis (Japan).bin`.
 2. XDelta patch: the `.xdelta` file from the release.
-3. Apply. Rename the result to `Brightis (Japan) [En-v1.0].bin` and keep the
+3. Apply. Rename the result to `Brightis (Japan) [En-v1.0.1].bin` and keep the
    included `.cue` next to it.
 
 ### macOS or Linux (command line)
@@ -37,17 +37,17 @@ Install `xdelta3` (Homebrew: `brew install xdelta`, Debian/Ubuntu:
 
 ```
 xdelta3 -d -s "Brightis (Japan).bin" \
-    "Brightis (Japan) [En-v1.0].xdelta" \
-    "Brightis (Japan) [En-v1.0].bin"
+    "Brightis (Japan) [En-v1.0.1].xdelta" \
+    "Brightis (Japan) [En-v1.0.1].bin"
 ```
 
 ## 3. Confirm the result
 
 A clean patch produces a file that is still 102,319,056 bytes, with:
 
-- CRC32: `bae9c2e5`
-- MD5: `2d3a089ea1ccc27f5fc4325aef7d4ea7`
-- SHA-1: `20656bc0f918d87e4a43b067f4b7924cfa9f5c6d`
+- CRC32: `6bfebb81`
+- MD5: `e788eeb47a17317f831baa6e946e61c6`
+- SHA-1: `94ba83ae9dea4f1b1f449c49f4c366139b846cae`
 
 If those match, you are done.
 
